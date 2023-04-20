@@ -6,6 +6,19 @@ public class Libro {
 
     private int año;
 
+    public String getTitulo() {
+        return titulo;
+    }
 
+    public String getAutor() {
+        return autor;
+    }
 
+    public int getAñoPublicacion() {
+        return añoPublicacion;
+    }
+
+    public int getAño() {
+        return año;
+    }
 }
