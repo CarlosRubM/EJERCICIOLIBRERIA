@@ -1,5 +1,5 @@
 public class Estanteria {
-    private Libro matriz[][];
+    protected Libro matriz[][];
 
 
     public Estanteria(){
@@ -20,5 +20,7 @@ public class Estanteria {
         return s;
     }
 
-
+    public Libro[][] getMatriz() {
+        return matriz;
+    }
 }
