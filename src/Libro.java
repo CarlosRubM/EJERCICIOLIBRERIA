@@ -4,5 +4,7 @@ public class Libro {
     private String autor;
     private int añoPublicacion;
 
+    private int año;
+
 
 }
