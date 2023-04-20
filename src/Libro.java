@@ -4,7 +4,10 @@ public class Libro {
     private String autor;
     private int añoPublicacion;
 
-    private int año;
+    private String ISBN;
+    private String genero;
+    private String editorial;
+
 
     public String getTitulo() {
         return titulo;
@@ -18,7 +21,5 @@ public class Libro {
         return añoPublicacion;
     }
 
-    public int getAño() {
-        return año;
-    }
+
 }
